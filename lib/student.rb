@@ -26,5 +26,9 @@ class Student
     DB[:conn].execute("DROP TABLE students")
   end
 
+  def save(name, grade)
+    
+  end
+
 
 end
